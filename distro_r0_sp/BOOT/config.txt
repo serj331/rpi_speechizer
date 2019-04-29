@@ -1,0 +1,5 @@
+kernel=vmlinuz-4.14.91+
+device_tree=bcm2708-rpi-b-plus.dtb
+dtparam=audio=on
+dtoverlay=pwm-2chan,pin=12,func=4,pin2=13,func2=4
+dtoverlay=i2s-soundcard
